@@ -11,6 +11,12 @@ ATunnel::ATunnel()
 
 	LastComponentIndex = 0;
 	ComponentToMoveIndex = 0;
+	NextRelocationTriggerIndex = 0;
+	CurrentFadeIndex = 0;
+	NextFadeTriggerIndex = 0;
+	Distance = 0;
+	OverlapDelay = 0;
+	MaxIndexCount = 0;
 }
 
 // Called when the game starts or when spawned

@@ -26,11 +26,30 @@ public:
 	UFUNCTION(BlueprintCallable, Category="Custom C++")
 	void RelocateComponent(USceneComponent* TargetToMove, USceneComponent* TargetDestination, float Distance);
 
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category=Indexing)
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Custom C++")
 	int32 LastComponentIndex;
 
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category=Indexing)
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Custom C++")
 	int32 ComponentToMoveIndex;
 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Custom C++")
+	int32 NextRelocationTriggerIndex;
 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Custom C++")
+	int32 CurrentFadeIndex;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Custom C++")
+	int32 NextFadeTriggerIndex;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Custom C++")
+	int32 MaxIndexCount;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Custom C++")
+	float Distance;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Custom C++")
+	float OverlapDelay;
+	
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Custom C++")
+	TArray<UChildActorComponent*> ChildActorArray;
 };
