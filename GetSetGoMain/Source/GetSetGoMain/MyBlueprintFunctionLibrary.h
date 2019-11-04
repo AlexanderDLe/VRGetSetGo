@@ -15,7 +15,11 @@ class GETSETGOMAIN_API UMyBlueprintFunctionLibrary : public UBlueprintFunctionLi
 	GENERATED_BODY()
 
 public:
-	UFUNCTION(BlueprintCallable, Category="Test")
+	UFUNCTION(BlueprintCallable, Category="Custom C++")
 	static void PrintTest(FString text);
+	
+	UFUNCTION(BlueprintCallable, Category="Custom C++")
+	static void IncrementAndSetIndexCode(UPARAM(ref) int& IndexToSet, int MaxIndex);
+
 
 };
