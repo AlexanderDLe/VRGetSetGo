@@ -45,6 +45,9 @@ public:
 	int32 MaxIndexCount;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Custom C++")
+	int32 RotationStart;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Custom C++")
 	float Distance;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Custom C++")

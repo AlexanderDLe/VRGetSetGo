@@ -17,6 +17,7 @@ ATunnel::ATunnel()
 	Distance = 0;
 	OverlapDelay = 0;
 	MaxIndexCount = 0;
+	RotationStart = 0;
 }
 
 // Called when the game starts or when spawned
