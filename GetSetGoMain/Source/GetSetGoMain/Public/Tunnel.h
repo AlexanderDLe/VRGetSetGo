@@ -52,7 +52,4 @@ public:
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Custom C++")
 	float OverlapDelay;
-	
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Custom C++")
-	TArray<UChildActorComponent*> ChildActorArray;
 };
