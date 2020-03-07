@@ -1,6 +1,6 @@
 <img src="ReadMeImages/Tunnel.png" >
 
-Get Set Go is a Visual-Musical VR Experience
+# Get Set Go is a Visual-Musical VR Experience
 
 [Please visit the demo reel at appility.co](https://www.youtube.com/watch?v=FzIip0bBdRQ)
 
@@ -14,7 +14,7 @@ Get Set Go is built with Unreal Engine 4 and is based upon an electronic music p
 
 <img src="ReadMeImages/GreatHallpng.png" >
 
--   Real Time Interpolating - As a player goes through the level, real time interpolation is triggered by collision volumes and sequencer/music synchronization. Interpolating materials parameters enables the use of appealing visual impact such as triggering lights to flash upon a certain section of the song.
+-   Real Time Interpolating - As a player goes through the level, real time interpolation is triggered by collision volumes and sequencer/music synchronization. Interpolating materials parameters enables the use of appealing visual impact such as triggering lights to flash upon a certain section of the song or dynamically transform the global position of an object.
 
 <img src="ReadMeImages/Blueprint.png" >
 
