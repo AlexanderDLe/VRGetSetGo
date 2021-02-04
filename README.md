@@ -2,7 +2,7 @@
 
 # Get Set Go is a Visual-Musical VR Experience
 
-[Please visit the demo reel at appility.co](https://www.youtube.com/watch?v=FzIip0bBdRQ)
+[Please visit the demo reel](https://www.youtube.com/watch?v=FzIip0bBdRQ)
 
 Get Set Go is built with Unreal Engine 4 and is based upon an electronic music production of mine. Events are synchronized with the various sections of the song through the use of Sequencer, blueprint interfaces, collision volumes, etc.
 
